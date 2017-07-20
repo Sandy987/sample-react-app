@@ -5,6 +5,9 @@ import './styles.css';
 function Widget({ widget }) {
   return (
     <div className="Widget">
+      <span className="Widget-id">
+        {widget.id}
+      </span>
       {widget.description}
     </div>
   );

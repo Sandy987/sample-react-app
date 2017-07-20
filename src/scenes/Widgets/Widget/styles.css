@@ -1,3 +1,8 @@
 .Widget {
   font-size: 1.4rem;
 }
+
+.Widget-id {
+  color: red;
+  margin-right: 1rem;
+}
